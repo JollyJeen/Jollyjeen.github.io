@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; 
+  color: #333; 
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 150px; 
+}
+
+.main {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-list {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.button-list li {
+  margin: 10px;
+}
+
+.button-list a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-align: center; 
+  overflow: hidden; 
+  white-space: nowrap;
+}
+
+.shorta{
+  width: 100px;
+}
+
+.button-blue {
+  background-color: #4C75A3;
+}
+
+.button-googleblue{
+  background-color: #3bccff;
+}
+
+.button-red {
+  background-color: #ff0000;
+}
+
+.button-yellow {
+  background-color: #ffc400;
+}
+
+.button-purple {
+  background-color: #800080;
+}
+
+.button-instapurple {
+  background-color: #5851DB;
+}
+
+.button-orange {
+  background-color: #ff6600;
+}
+
+.button-darkrutube{
+  background-color: #212d3a;
+}
+
+
+.button-blue:hover {
+  background-color: #3d5c80;
+}
+
+.button-red:hover {
+  background-color: #cc0000;
+}
+
+.button-googleblue:hover{
+  background-color: #2e9ac2;
+}
+
+.button-instapurple:hover {
+  background-color: #4c46bb;
+}
+.button-yellow:hover {
+  background-color: #ddb61c;
+}
+
+.button-darkrutube:hover{
+  background-color: #1c2631;
+}
+
+
+.button-purple:hover {
+  background-color: #660066;
+}
+
+.button-orange:hover {
+  background-color: #cc5500;
+}
+
+.button-list a i {
+  position: absolute;
+  left: 20px;
+}
+
+
+.image-button-row {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  flex-flow: row wrap;
+  max-width: 600px;
+  
+  
+}
+
+.image-button {
+  width: 150px; 
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.image-button:hover {
+  transform: scale(1.1); 
+}
+
+
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #4C75A3; 
+  color: #ffffff;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-vk {
+  background-color: #45668e; 
+}
+
+.social-instagram {
+  background-color: #833ab4; 
+}
+
+.social-twitter {
+  background-color: #1da1f2; 
+}
+
+.social-tiktok {
+  background-color: #2c002c; 
+}
+
+.social-yandex {
+  background-color: #FFCC00; 
+}
+
+.social-rutube {
+  background-color: #212d3a; 
+}
+
+.social-youtube {
+  background-color: #FF0000; 
+}
+
+.social-button:hover {
+  transform: scale(1.1); 
+}
+
+
+
+footer {
+ 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.image-button {
+  
+  position: relative;
+}
+
+.store-icon {
+ 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px; 
+  font-size: 24px; 
+  color: white;
+}
+
+.cclist{
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align the items at the top */
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.game-icon {
+  max-width: 200px; /* Reduce the size of the icon */
+  margin-right: 20px;
+  margin-left: 10px; /* Slightly offsetting the icon to the left */
+}
+
+.game-icon img {
+  width: 100%; /* Ensure the image takes up the available width within the max-width constraint */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.game-details {
+  text-align: center;
+}
+
+.game-details h1 {
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px; 
+  font-size: 16pt;
+}
+
+.licen {
+  text-align: right;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px; 
+  font-size: 14pt;
+  
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.screenshots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px; /* Add some space between the description and screenshots */
+}
+
+.screenshots img {
+  width: 320px; /* Set a fixed width */
+  height: 180px; /* Maintain a 16:9 aspect ratio (16/9 = 1.7778) */
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+
